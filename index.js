@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 // Lắng nghe trên cổng được cung cấp bởi Render hoặc 9000 nếu không có
-const PORT = process.env.PORT || 9000;
+const PORT = 80;
 app.listen(PORT, function () {
     console.log(`Server đang chạy tại http://localhost:${PORT}/`);
 });
